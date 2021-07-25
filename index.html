@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MLM8TZQZN"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-7MLM8TZQZN');
+	</script>	
+
+	<title>Mitchell Osborn</title>
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<!-- Icon -->
+	<link rel="shortcut icon" href="imgs/website.ico" type="image/x-icon" />
+	<!-- Social Media Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- phone compatibility -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:url" content="https://mitchellosborn.com/">
+	<meta property="og:title" content="Mitchell Osborn">
+	<meta property="og:type" content="website">
+	<meta property="og:description"
+		content="Computer science major at Rice University with a passion for learning, developing, and innovating. ">
+	<meta property="og:image" content="/imgs/profile.png">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+</head>
+
+<body>
+    <!-- <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+              BLOG 1
+          </div>
+          <div class="row">
+             BLOG 4
+          </div>
+        </div>
+        <div class="col-md-4">
+            BLOG 2
+        </div>
+        <div class="col-md-4">
+            BLOG 3
+        </div>
+     </div> -->
+	<div id="header" >
+		<div class="container">
+			<div class="row" style="height: 100%; max-width: 100%;">
+				<div class="col-lg-5 col-lg-pull-5" id="headerText">
+					<h2 id = "headerIntro" style="font-size: 3em;">Hi! I'm</h2>
+					<h1 id="name" style="vertical-align: middle;">Mitchell Osborn</h1>
+					<hr id="headerLine" class="my-4">
+					<p id="description" class="lead">Data scientist, Full-stack developer</p>
+					<!-- Social Media Icons -->
+					<a href="https://www.linkedin.com/mitchell-osborn" class="fa fa-linkedin" id="social-fa"></a>
+					<a href="https://github.com/mitosborn" class="fa fa-github" id="social-fa"></a>
+					<a href="mailto:mbo2@rice.edu" class="fa fa-envelope" id="social-fa"></a>
+				</div>
+                <div class="col-lg-7 col-lg-push-7" id="headerImageDiv">
+					<img class="img-responsive " src="imgs/aboutme.png" id="headerImage" width="auto" height="100%">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 id="sectionHeader">About Me</h1>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<img id="avatar" src="imgs/aboutme.png">
+			</div>
+			<div class="col-xs-12 col-md-8"
+				style="padding-top: 1.2em; padding-bottom: 1.2em; font-size: 1.2em; font-family: 'Roboto', sans-serif;">
+				<p><span id="IAM">I am</span> a third year undergraduate student at Rice University pursuing
+					a B.S. in Computer Science and a minor in German.</p>
+				<p><span id="IAM">I am</span> data driven, diving deep into data sets to discover trends and patterns
+					that drive decisions.</p>
+				<p><span id="IAM">I am</span> experienced in full stack development, data
+					visualization, weight lifting, and making good coffee.</p>
+			</div>
+		</div>
+	</div>
+    <!--Work container-->
+	<div id="work" class="container">
+		<h1 id="sectionHeader">Where I've Worked</h1>
+		<hr class="my-4">
+        <!--Work container-->
+		<div id="subsection" class="row align-items-center">
+			<div id="workIMG" class="col d-none d-md-block offset-md-1">
+				<img src="imgs/pnnl.png" class="float-right img-fluid">
+			</div>
+			<div class="col-12 col-md-8">
+				<h3 id="company">Pacific Northwest National Labortory</h3>
+				<h4 id="role">Data Science Intern</h4>
+				<h5 id="detail"><span class="fa fa-map-marker"></span> Richland, WA 
+					<span id="time" class="fa fa-calendar-alt"></span> May 2021 - Present </h5>
+				<p style="font-family: 'Roboto', sans-serif;">
+					During my internship at PNNL, TBD....
+				</p>
+			</div>
+		</div>
+
+		<div id="subsection" class="row align-items-center">
+			<div id="workIMG" class="col d-none d-md-block offset-md-1">
+				<img src="imgs/rice.jpeg" class="float-right img-fluid">
+			</div>
+			<div class="col-12 col-md-8">
+				<h3 id="company">Rice University</h3>
+				<h4 id="role">Data Science Researcher</h4>
+				<h5 id="detail"><span class="fa fa-map-marker"></span> Houston, TX
+					<span id="time" class="fa fa-calendar-alt"></span> May 2020 - April 2021 </h5>
+				<p style="font-family: 'Roboto', sans-serif;">
+					As a researcher in Dr. Sylvia Dee's Climate Lab, I investigated the environmental impacts 
+					of the COVID-19 lockdown on Texas. To do this, I utilized statistical modelling on historical 
+					data to predict what concentration levels would have been if the lockdown didn't occur in each
+					of Texas' 254 counties. I then divided the data into three partitions (pre-lockdown, lockdown, 
+					and post-lockdown) and performed significance testing. I found that the reductions in pollutants
+					from the lockdown were mostly cancelled out by the effects of reopening.
+					In the process of doing this, I created a script using Selenium to automate downloading data.
+					Then, to best communicate these results, I built a web dashboard utilizing the Python package Dash.
+					This dashboard utilizes an interactive heat-map, time series plot, and scatter plot to visualize trends
+					of eight environmental and two socioeconomic indicators
+					throughout the lockdown. To complete this work, I worked closely with a diverse team of environmental 
+					science, computer science, and statistics majors. 
+				</p>
+			</div>
+		</div>
+
+		<div id="subsection" class="row align-items-center">
+			<div id="workIMG" class="col d-none d-md-block offset-md-1">
+				<img src="imgs/in-n-out.jpeg" class="float-right img-fluid">
+			</div>
+			<div class="col-12 col-md-8">
+				<h3 id="company">In-N-Out Burger</h3>
+				<h4 id="role">Associate</h4>
+				<h5 id="detail"><span class="fa fa-map-marker"></span> Austin, TX
+					<span id="time" class="fa fa-calendar-alt"></span> June 2018 - August 2019</h5>
+				<p style="font-family: 'Roboto', sans-serif;">
+					During my freshman year of college, I worked as an associate at In-N-Out Burger, achieving three promotions within a year. Some of my tasks included
+					taking customer orders in the drive-thru, administering payment, cleaning the dining room, and handing out food. To do these tasks, I worked closely with 8 other associates.
+
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<h1 id="sectionHeader">Things I've Done</h1>
+	<h2 id="things-done-descript">(click to learn more)</h2>
+	<hr class="my-4">
+
+	<div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+		<!-- Lovett Secretary -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal1">
+				<img class="card-img-top" src="imgs/lovett.jpeg" alt="Lovett Secretary">
+				<div class="card-body">
+					<h5 class="card-title">Secretary</h5>
+					<p class="card-subtitle">Lovett College</p>
+					<p class="card-text">2021 - 2022 Academic Year</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Lovett College Secretary</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							As the Secretary of Lovett College, my responsibilities include:
+							<ul>
+								<li>Document meetings and ensure the community stays informed of events happening at Lovett.</li>
+								<li>Manage listserv to ensure 300+ community members stay
+									informed and engaged of opportunities at Lovett College and Rice.</li>
+								<li>Oversee the operations of the Merchandise Committee.</li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- RICE APPS OSA -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal2">
+				<img class="card-img-top" src="imgs/riceapps.png" alt="RiceApps OSA">
+				<div class="card-body">
+					<h5 class="card-title">OSA Mentor</h5>
+					<p class="card-subtitle">RiceApps</p>
+					<p class="card-text">Summer 2021</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">OSA Mentor</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							As a mentor for Hatch, I led four students in creating a course scheduling platform used by 500 students. 
+							My responsibilities include defining product vision
+							and features, scoping requirements, and
+							managing communication between my team and the RiceApps coordinators. 
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- COVID-19 Dashboard -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal3">
+				<img class="card-img-top" src="imgs/rice.jpeg" alt="COVID-19 Dashboard">
+				<div class="card-body">
+					<h5 class="card-title">COVID-19 Environmental Impacts Dashboard</h5>
+					<p class="card-subtitle">Rice Climate Labortory</p>
+					<p class="card-text">Spring 2020 - April 2021 |
+						<a href="http://tx-covid-enviromap.rice.edu/" target="_blank"
+							class="btn btn-outline-secondary" id="expbtn">Dashboard</a> | 
+						<a href="https://github.com/mitosborn/COVID_Env_Dashboard" target="_blank"
+						class="btn btn-outline-secondary" id="expbtn">Github</a>
+					</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">COVID-19 Environmental Impacts Dashboard</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<p>
+											<strong>Description:</strong> Year long project to assess environmental 
+											and socioeconomic impacts of the COVID-19 pandemic on Texas.
+											I worked in a team of 8 students of various
+											majors to design and implement a data science pipeline to assess COVID's impacts.
+											This pipeline collected the most recent environmental and socioeconomic
+											county level data, compared historical and present data using statistics and time-series 
+											modelling, and visualized impacts by metropolitan area and county with a dashboard.
+
+											To implement this pipeline, I first utilized Selenium to automate downloading historical data from the Texas Comission for Environmental
+											Quality (TCEQ) due to a lack of an API. Then, I leveraged Python's Pandas and Statsmodels packages to group data by 
+											county and metropolitan area and model what indicator levels would have been if COVID never occurred. Finally, to improve interpretability and simplify
+											analysis of the data, I created an interactive dashboard using Dash, a Python dashboarding package.
+
+											Packages used: Dash, Plotly, Matplotlib, Statsmodels, Pandas, Selenium.
+										</p>
+									</div>
+									<div class="col-12 col-md-6 ml-auto">
+										<!-- <img style="max-width: 100%" src="imgs/AudienceChoice.png"> -->
+									</div>
+								</div> <!-- row div -->
+							</div> <!-- container fluid div -->
+						</div> <!-- modal body div -->
+						<div class="modal-footer">
+							<a href="https://github.com/mitosborn/COVID_Env_Dashboard" target="_blank"
+								class="btn btn-primary">Github</a>
+							<a href="https://github.com/mitosborn/COVID_Env_Dashboard" target="_blank"
+								class="btn btn-primary">Dashboard</a>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- PCA -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal5">
+				<img class="card-img-top" src="imgs/ccd.jpeg" alt="Peer Career Advisor">
+				<div class="card-body">
+					<h5 class="card-title">Peer Career Advisor</h5>
+					<p class="card-subtitle">Rice Center for Career Development</p>
+					<p class="card-text">2020 - 2021 Academic Year</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Peer Career Advisor</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<p>
+											As a peer career advisor, I work to help students achieve their career goals through 
+											resume workshops, networking events. and one-on-one counseling. I find this role very meaningful 
+											as it focuses on working to enable others to follow their goals and reach beyond their percieved 
+											capabilities.
+										</p>
+									</div>
+									<div class="col-12 col-md-6 ml-auto">
+										<img style="max-width: 100%" src="imgs/doerrcert.png">
+									</div>
+								</div> <!-- row div -->
+							</div> <!-- container fluid div -->
+						</div> <!-- modal body div -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lovett Advisor -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal4">
+				<img class="card-img-top" src="imgs/lovett.jpeg" alt="New Student Advisor">
+				<div class="card-body">
+					<h5 class="card-title">New Student Advisor</h5>
+					<p class="card-subtitle">Lovett College</p>
+					<p class="card-text">Fall 2020, Fall 2021</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">New Student Advisor</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							For the past two years, I have served as an orientation advisor to matriculating students. As a mentor, I've worked
+							together with seven fellow advisors to introduce fourteen new students to Rice during orientation and guide them 
+							throughout the year as a constant resource. 
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Webmaster -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal6">
+				<img class="card-img-top" src="imgs/lovett.jpeg" alt="Lovett Webmaster">
+				<div class="card-body">
+					<h5 class="card-title">Lovett College Webmaster</h5>
+					<p class="card-subtitle">Lovett College</p>
+					<p class="card-text">August 2020 - Present |
+						<a href="https://lovettcollege.github.io/lovettcollege/" target="_blank" class="btn btn-outline-secondary"
+							id="expbtn">Website</a> |
+						<a href="https://github.com/lovettcollege/lovettcollege" target="_blank"
+							class="btn btn-outline-secondary" id="expbtn">Github</a>
+					</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Lovett College Webmaster</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								As webmaster, I have worked to maintain and expand Lovett's website that serves over 300 students.
+								To do this, I have utilized JavaScript, Bootstrap CSS, and HTML to create new webpages and keep 
+								the website up to date. 
+							</p>
+						</div> <!-- modal body div -->
+						<div class="modal-footer">
+							<a href="https://lovettcollege.github.io/lovettcollege/" target="_blank" class="btn btn-primary">Website</a>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Spotify Interests Dashboard -->
+		<div class="grid-item">
+			<div class="card p-2" data-toggle="modal" data-target="#modal7">
+				<img class="card-img-top" src="imgs/spotify.png" alt="Spotify Interests Dashboard">
+				<div class="card-body">
+					<h5 class="card-title">Spotify Interests Dashboard</h5>
+					<p class="card-subtitle">Personal project</p>
+					<p class="card-text">January 2021</p>
+				</div>
+			</div>
+			<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Spotify Interests Dashboard</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Seeking to develop my machine learning and data visualization skills, I developed a dashboard to analyze a user's 
+							Spotify music interests and suggest new songs. This dashboard takes a user's Spotify ID as input and compares their
+							song preferences to a dataset of over 10,000 songs. It then uses k-nearest clustering to suggest a list of songs
+							the user should try out. For me, this project was interesting because it attempts to mimic Spotify's music suggestion
+							algorithm. I have always been amazed how accurately Spotify can suggest new songs that I may like. This project 
+							made me appreciate how advanced their algorithm is at achieving these results. <br><br>
+
+							Packages used: Dash, Pandas, Sci-Py, Plotly.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Stuff to add = COMP 340 Projects, ML Cert, All the trainings from PNNL (Dagster, PySpark, JavaScript, etc), New Student R -->
+		<!-- Datathon -->
+	</div>
+
+	<!-- LETS CONNECT -->
+	<div class="container">
+		<h1 id="sectionHeader">Connect with me</h1>
+		<hr class="my-4">
+		<div class="row align-items-center">
+			<div class="col-12" style="text-align: center;">
+				<a id="contactInfo" href="https://www.linkedin.com/mitchell-osborn/">
+					<span class="fa fa-linkedin-square"></span> linkedin.com/mitchell-osborn
+				</a>
+			</div>
+
+			<div class="col-12" style="text-align: center;">
+				<a id="contactInfo" href="https://github.com/mitosborn">
+					<span class="fa fa-github" style="color:#6AB8EE"></span> github.com/mitosborn
+				</a>
+			</div>
+
+			<div class="col-12" style="text-align: center;">
+				<a id="contactInfo" href="mailto:mbo2@rice.edu">
+					<span class="far fa-envelope"></span> mbo2@rice.edu
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
