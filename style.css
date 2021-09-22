@@ -79,7 +79,7 @@ body {
   border: 1px solid gray;
 }
 
-#sectionHeader {
+.sectionHeader {
 	padding-top: 2em;
 	text-align: center;
   color: #5B7485;
@@ -167,9 +167,9 @@ body {
 	font-weight: 550;
 }
 
-#IAM {
+.IAM {
   font-weight: 600;
-	color: #6AB8EE; 
+	color: #182028;
 }
 
 .thumb { 
