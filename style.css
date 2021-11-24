@@ -86,7 +86,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-#things-done-descript {
+.things-done-descript {
   font-weight: 300; 
   font-size: 1.3em;
   text-align: center;
