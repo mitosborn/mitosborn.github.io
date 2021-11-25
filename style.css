@@ -144,9 +144,13 @@ body {
   width:100%;
 }
 
+.roleImg {
+}
+
 .card {
 	width:100%;
-	margin-top: 1em;
+	margin: 1em;
+    max-width: 225px;
 }
 
 .card-title {
