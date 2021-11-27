@@ -1008,9 +1008,28 @@
 									<div class="col-12 col-md-12">
 										<br>
 										<p>
-											<strong>Description:</strong> For an assignment in COMP 340: Statistical Models for Data Science, I had to
-											predict
-											Packages used: Dash, Plotly, Matplotlib, Statsmodels, Pandas, Selenium.
+											<strong>Description:</strong> In this assignment, I had to
+											predict whether a flight would experience a delay of greater than an hour based
+											predictor variables such as the weather, distance traveled, and departure time.
+											Utilizing sklearn, I built three models to do this task:
+											<ul>
+												<li>Logistic regression with an L2 penalty</li>
+												<li>Logistic regression with an L1 penalty</li>
+												<li>Naive Bayes (GaussianNB)</li>
+											</ul>
+											<br><br>
+											The data was structured such that each row represented a flight with distance, departure + destination airports,
+											total delay (in minutes), and weather information (this was merged from another dataset). I converted
+											the delay column into a binary vector where 1 represented a delayed flight by 60 or more minutes,
+											and 0 the flight was delayed by less than that threshold. This binary delay column became the y vector
+											I was trying to predict and the rest of the data became the matrix of feature vectors, X.
+											<br><br>
+											After training the three models outlined above on this data, I found that the two logistic regression
+											models performed identically at predicting delays of > 60 minutes. While Gaussian Naive Bayes model performed the worst.
+											Looking at the feature weights of the logistic models, the L1 penalty logistic model used precipitation as the greatest indicator of delay, and the
+											L2 penalty logistic model decided temperature best indicated a delay.
+											<br><br>
+											Packages used: Pandas, Scikit-learn, and Numpy.
 										</p>
 									</div>
 								</div>
